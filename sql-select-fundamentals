@@ -30,6 +30,8 @@ INSERT INTO sales VALUES (1008, '2024-03-05', 203, 302, 'Mouse Inalámbrico',  '
 INSERT INTO sales VALUES (1009, '2024-03-12', 204, 303, 'Monitor 4K 27"',     'Computación', 2,  450.00,  900.00);
 INSERT INTO sales VALUES (1010, '2024-03-20', 205, 304, 'Teclado Mecánico',   'Accesorios',  4,   95.00,  380.00);
 
+SELECT * FROM sales; -- esta opción conviene utilizarla cuando necesitamos que nos traiga todos los datos y columnas de la tabla de ventas.
+
 -- Consulta 2: Selección de columnas específicas para finanzas
 SELECT customer_id, product_id, total_amount FROM sales;
 
